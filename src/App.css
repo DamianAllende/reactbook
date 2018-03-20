@@ -26,3 +26,57 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box; 
+}
+
+body{
+  font-family: sans-serif;
+}
+
+h3,
+p{
+  margin: 0;
+}
+
+.post{
+  border: 1px solid #DDDEF2;
+  padding: 12px;
+  width: 500px;
+  border-radius: 2px;
+}
+
+.post__image{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.post__header{
+  display: flex;
+}
+
+.post__actions{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  margin-bottom: 0px; 
+}
+
+.post__actions li{
+  width:  33%;
+}
+
+.post__actions li a{
+  text-decoration: none;
+  color:  #444;
+}
+
+.post__actions li .fa{
+  margin-right: 5px;
+  color:  #444;
+}
