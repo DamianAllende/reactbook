@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Header extends Component{
 	render(){
 		return(
-			<section>
+			<section className='head__container'>
 				<div className='head'>
 					<div className='head__logo'>
 						<i className='fa fa-facebook-square'></i>
