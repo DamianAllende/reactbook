@@ -11,6 +11,7 @@ class Header extends Component{
 					</div>
 					<div className='head__search'>
 						<input className='head__search__input' type="" name=""/>
+						<i className='fa fa-search'></i>
 					</div>
 				</div>
 			</section>
