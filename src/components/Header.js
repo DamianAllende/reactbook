@@ -10,7 +10,7 @@ class Header extends Component{
 						<i className='fa fa-facebook-square'></i>
 					</div>
 					<div className='head__search'>
-						<input className='head__search__input' type="" name=""/>
+						<input className='head__search__input' type='' name='' placeholder='Search'/>
 						<i className='fa fa-search'></i>
 					</div>
 				</div>
