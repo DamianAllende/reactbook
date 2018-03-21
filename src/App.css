@@ -99,10 +99,14 @@ p{
   border: none;
   border-radius: 1px;
   position: relative;
-  left: 20px; 
+  left: 10px; 
+  padding-left: 10px;
+  padding-right: 35px;
 }
 .head__search .fa{
   position: absolute;
-  left: 520px;
+  left: 510px;
   top: 15px;
 }
+
+
