@@ -97,5 +97,12 @@ p{
   width: 500px;
   height: 28px;
   border: none;
-  border-radius: 1px; 
+  border-radius: 1px;
+  position: relative;
+  left: 20px; 
+}
+.head__search .fa{
+  position: absolute;
+  left: 520px;
+  top: 15px;
 }
