@@ -127,6 +127,7 @@ p{
   background-color: #3B579C;
   height: 42px;
   align-items: center;
+  padding: 0 50px;
 }
 
 .header__image {
@@ -171,6 +172,40 @@ p{
   display: flex;
 }
 
+.grid--justify{
+  justify-content: space-between;
+}
+
+.v-center{
+  align-items: center;
+
+}
+/*------------------------------------
+Header Action
+ ------------------------------------*/
+
+.header__actions{
+  list-style-type:none; 
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.header__actions li{
+  margin: 0 5px;
+
+}
+
+.avatar{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+a{
+  color:currentColor;
+  text-decoration: none;
+}
 
 
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Header extends Component{
 	render(){
 		return(
@@ -17,10 +16,10 @@ class Header extends Component{
 		          </form>
 		        </div>
 		        <div>
-		        	<ul>
+		        	<ul className='header__actions grid v-center'>
 		        		<li>
-			        		<a href=''>
-			        			<img src='https://d3iw72m71ie81c.cloudfront.net/female-73.jpg'/>
+			        		<a href='' className='grid v-center'>
+			        			<img className='avatar' src='https://d3iw72m71ie81c.cloudfront.net/female-8.jpg'/>
 			        			Dmn
 		        			</a>
 		        		</li>
