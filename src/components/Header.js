@@ -16,7 +16,21 @@ class Header extends Component{
 		            </div>
 		          </form>
 		        </div>
-		        <div></div>
+		        <div>
+		        	<ul>
+		        		<li>
+			        		<a href=''>
+			        			<img src='https://d3iw72m71ie81c.cloudfront.net/female-73.jpg'/>
+			        			Dmn
+		        			</a>
+		        		</li>
+		        		<li>
+		        			<a href=''>
+		        				<p>Home</p>
+		        			</a>	
+		        		</li>
+		        	</ul>	
+		        </div>
 		      </nav>
 		);
 	}
