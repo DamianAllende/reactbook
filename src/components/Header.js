@@ -4,17 +4,20 @@ import React, { Component } from 'react';
 class Header extends Component{
 	render(){
 		return(
-			<section className='head__container'>
-				<div className='head'>
-					<div className='head__logo'>
-						<i className='fa fa-facebook-square'></i>
-					</div>
-					<div className='head__search'>
-						<input className='head__search__input' type='' name='' placeholder='Search'/>
-						<i className='fa fa-search'></i>
-					</div>
+			<nav className='grid grid--judtify'>
+				<div>
+					<img className='header__image' src="https://www.inria.fr/extension/site_inria/design/site_inria/images/social_networks/facebook_square.png" / >
+					<form>
+						<div className='form'>
+							<input type='text' placeholder='Search'/>
+							<button>
+								<i className='fa fa-search'></i>
+							</button>
+						</div>
+					</form>
 				</div>
-			</section>
+				<div></div>
+			</nav>
 		);
 	}
 }
