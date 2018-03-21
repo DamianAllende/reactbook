@@ -116,6 +116,47 @@ p{
 
 .head__container{
   background-color: #4267b2;
+  height: 42px;
+  align-items: center;
 }
+
+
+
+
+.header {
+  background-color: #3B579C;
+  height: 42px;
+  align-items: center;
+}
+
+.header__image {
+  width: 30px;
+  height: 30px;
+}
+
+
+/*------------------------------------
+ Form (Header)
+ ------------------------------------*/
+.form {
+  height: 30px;
+  outline: 1px solid white;
+}
+.form input {
+
+}
+.form button {}
+
+/*------------------------------------
+ Grid
+ ------------------------------------*/
+.grid {
+  display: flex;
+}
+
+
+
+
+
 
 
