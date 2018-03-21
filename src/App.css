@@ -83,6 +83,9 @@ p{
 
 
 .head{
+  width: 85%;
+  height: auto;
+  margin: 0px auto;
   background-color: #4267b2;
   display: flex;
   padding: 10px 0;
