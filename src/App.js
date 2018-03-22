@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Switch, Router } from 'react-router-dom';
 import Post from './components/Post';
 import Header from './components/Header';
+import Home from './components/Home';
 import './App.css';
 
 import Twit from 'twit';
@@ -40,12 +42,7 @@ class App extends Component {
     return (
     	<div>
 	    	<Header />	
-	    	{this.state.data.map(function(p){
-	    		return <Post 
-	    		name={p.name}
-	    		avatar={p.picture.thumbnail}
-	    		/>
-	    	})}
+	    	<Home />
 	    </div>	
     );
   }
