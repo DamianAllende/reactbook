@@ -5,15 +5,47 @@ import './App.css';
 
 import Twit from 'twit';
 
-import Config from './config'
+import config from './config'
+
+import request  from 'superagent'
+
+const T = new Twit(config)
 
 class App extends Component {
+	constructor(){
+  		super()
+
+  		this.state={
+  			data: []
+  		}
+
+  	}
+
+
+  componentDidMount(){
+  	request
+  		.get('https://randomuser.me/api/?results=20')
+  		.then(data =>{
+  			console.log(data)
+  			this.setState({
+  				data: data.body.results
+  			})
+  		})
+  }
   render() {
-  	console.log(Config)
+
+
+  	
+  	
     return (
     	<div>
 	    	<Header />	
-	    	<Post />
+	    	{this.state.data.map(function(p){
+	    		return <Post 
+	    		name={p.name}
+	    		avatar={p.picture.thumbnail}
+	    		/>
+	    	})}
 	    </div>	
     );
   }
